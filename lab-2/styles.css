@@ -1,0 +1,219 @@
+body, h1, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav p {
+    margin: 0;
+    padding: 5px;
+}
+
+nav .right-align {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav .right-align p {
+    color: #fff;
+    font-weight: bold;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav .special {
+    background-color: #ffc800;
+    color: #000;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.logo-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.search-bar {
+    padding: 5px;
+}
+
+.search-btn {
+    background-color: #ffc800;
+    color: #000;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    text-indent: 0;
+    word-spacing: normal;
+    color: #333;
+}
+
+strong {
+    font-weight: bold;
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    padding: 5px;
+}
+
+.nav-item a {
+    padding: 0 10px 0 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.nav-item a:hover {
+    background-color: #ccc;
+}
+
+aside ins {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+footer li {
+    margin-bottom: 5px;
+}
+
+.waha_case{
+    height: 40px;
+    padding: 0 70px;
+
+}
+.true_logo {
+    width: 50px;
+    height: auto;
+    margin: 0 25px 0 0;
+    transform: scale(2);
+}
+.main_image {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+
+    border: 8px solid #000000;
+    box-shadow: 5px 1px 10px #ffc800;
+}
+.image-overlay {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay-text p{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image-text-container {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    padding: 30px;
+}
+
+.image-text-overlay p{
+    position: absolute;
+    bottom: 38px;
+    left: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image-text-img {
+    width: 300px;
+    height: 200px;
+}
