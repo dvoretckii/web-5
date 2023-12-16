@@ -11,5 +11,3 @@
         footer.appendChild(statsElement);
     });
 })();
-
-
